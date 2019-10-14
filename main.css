@@ -1,0 +1,98 @@
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cont_button:hover {
+    background-image: linear-gradient(rgb(244, 211, 131), rgb(238, 185, 52));
+}
+
+#cont_button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(rgb(246, 219, 154), rgb(240, 194, 79));
+    color: black;
+    border: 2px solid rgb(168, 135, 52)
+}
+
+#account_button {
+    background-image: linear-gradient(rgb(245, 246, 249), rgb(232, 234, 237));
+    border: 2px solid rgb(175, 175, 175);
+    color: black;
+}
+
+#account_button:hover {
+    background-image: linear-gradient(rgb(229, 232, 238), rgb(218, 221, 226))
+}
+
+.button_text {
+    font-size: 0.9em;
+}
+
+.orange_glow:focus {
+    outline: 5px solid rgb(238, 185, 52);
+}
+
+.line_text {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #987A7A;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: #987A7A;
+    text-align: center;
+}
+
+.line_text_span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 0.8em;
+}
+
+.logo {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin_form {
+    border: 2px solid rgb(221, 221, 221);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: -22px;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin_label {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.small_font {
+    font-size: 0.8em;
+}
+
+.smaller_font_spaced {
+    font-size: 0.65em;
+    line-height: 1.9em;
+    padding-top: 5px;
+}
+
+.smaller_font {
+    font-size: 0.65em;
+}
+
+.neg_top_margin {
+    margin-top: -15px;
+}
